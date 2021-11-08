@@ -46,7 +46,7 @@ function updateProductHTML(product) {
 }
 
 function addItemToCart(product) {
-  // ajout du produit dans le panier
+  // définition du produit à ajouter au panier en récupérant ces données puis envoie de ce dernier dans le panier
   const itemColors = document.querySelector("#colors");
   const itemQuantity = document.querySelector("#quantity");
   const cartItem = {

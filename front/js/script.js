@@ -13,9 +13,9 @@ function generateProductHTML(product) {
   let productHTML = '<a href="./product.html?id=' + product["_id"] + '">';
   productHTML +=
     '<article> <img src="' +
-    produit["imageUrl"] +
+    product["imageUrl"] +
     '" alt="' +
-    produit["altTxt"] +
+    product["altTxt"] +
     '">';
   productHTML += '<h3 class="productName">' + product["name"] + "</h3>";
   productHTML +=
