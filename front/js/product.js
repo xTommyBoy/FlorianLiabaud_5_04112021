@@ -62,7 +62,11 @@ function addItemToCart(product) {
     alert("SVP, choisissez une couleur");
     return false;
   }
-
+  else
+  {
+    alert("Ajout au panier effectué");
+  }
+//parametrage des données en fonction des propriétés choisies en fonction de l'ID du produit (couleurs , quantitées etc..)
   const itemIndex = cart.findIndex(function (item) {
     return item["_id"] === cartItem["_id"];
   });
